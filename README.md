@@ -1,5 +1,5 @@
-# DTTableView
- DTTableViewCustom tableview which support parallax header
+# DTParallaxTableView
+ Custom tableview which support parallax header
 
 ![](https://raw.githubusercontent.com/toandk/DTTableView/master/DTTableView.gif?raw=true)
 
@@ -15,31 +15,31 @@ Coming soon.
 
 Unzip example project and add 5 files to your project:
 	
-	DTTableView.h
-	DTTableView.m
-	DTHeaderView.h
-	DTHeaderView.m
-	DTTableViewConstants.h
+	DTParallaxTableView.h
+	DTParallaxTableView.m
+	DTParallaxHeaderView.h
+	DTParallaxHeaderView.m
+	DTParallaxTableViewConstants.h
 	
 Add [SDWebImage](https://github.com/rs/SDWebImage) framework to your project
 	
 ## Usage
 
-First create a DTTableView from code or drag a tableview in xib file and assign it's class to DTTableView:
+First create a DTParallaxTableView from code or drag a tableview in xib file and assign it's class to DTParallaxTableView:
 	
-	DTTableView *_tableView = [[DTTableView alloc] initWithFrame:CGRectMake(0, 0, 320, 568)];
+	DTParallaxTableView *_tableView = [[DTParallaxTableView alloc] initWithFrame:CGRectMake(0, 0, 320, 568)];
 	
 
 
 Next, we need to create a table header view from an UIImage and a tab bar (pass nil if you don't want to use tabbar):
 	
-	DTHeaderView *headerView = [[DTHeaderView alloc] initWithFrame:CGRectMake(0, 0, 320, 200) withImage:[UIImage imageNamed:@"girl.jpg"] withTabBar:tabbar];
+	DTParallaxHeaderView *headerView = [[DTParallaxHeaderView alloc] initWithFrame:CGRectMake(0, 0, 320, 200) withImage:[UIImage imageNamed:@"girl.jpg"] withTabBar:tabbar];
 	
 Or init with an image url:
 
-	DTHeaderView *headerView = [[DTHeaderView alloc] initWithFrame:CGRectMake(0, 0, 320, 200) withImageUrl:@"your-custom-image-url-here" withTabBar:tabbar];
+	DTParallaxHeaderView *headerView = [[DTParallaxHeaderView alloc] initWithFrame:CGRectMake(0, 0, 320, 200) withImageUrl:@"your-custom-image-url-here" withTabBar:tabbar];
 	
-Then you can set this view to a DTTableView's header as shown bellow.
+Then you can set this view to a DTParallaxTableView's header as shown bellow.
 	
 	[_tableView setDTHeaderView:headerView];
 	
