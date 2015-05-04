@@ -14,8 +14,8 @@
 		FA8DAE241AEF4940003A93AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8DAE201AEF4940003A93AB /* AppDelegate.m */; };
 		FA8DAE251AEF4940003A93AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8DAE221AEF4940003A93AB /* ViewController.m */; };
 		FA8DAE261AEF4940003A93AB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8DAE231AEF4940003A93AB /* ViewController.xib */; };
-		FA8DAE2D1AEF4954003A93AB /* DTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8DAE291AEF4954003A93AB /* DTTableView.m */; };
-		FA8DAE2E1AEF4954003A93AB /* DTHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8DAE2B1AEF4954003A93AB /* DTHeaderView.m */; };
+		FA8DAE2D1AEF4954003A93AB /* DTParallaxTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8DAE291AEF4954003A93AB /* DTParallaxTableView.m */; };
+		FA8DAE2E1AEF4954003A93AB /* DTParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8DAE2B1AEF4954003A93AB /* DTParallaxHeaderView.m */; };
 		FA8DAE311AEF495F003A93AB /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8DAE301AEF495F003A93AB /* girl.jpg */; };
 		FA8DAE331AEF4A2E003A93AB /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8DAE321AEF4A2E003A93AB /* SDWebImage.framework */; };
 		FA8DAE351AEF4BCD003A93AB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8DAE341AEF4BCD003A93AB /* ImageIO.framework */; };
@@ -32,12 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FA8DADF61AEF4929003A93AB /* DTTableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTTableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8DADF61AEF4929003A93AB /* DTParallaxTableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTParallaxTableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8DADFA1AEF4929003A93AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA8DADFB1AEF4929003A93AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA8DAE061AEF4929003A93AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA8DAE091AEF4929003A93AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		FA8DAE0F1AEF4929003A93AB /* DTTableViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTTableViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8DAE0F1AEF4929003A93AB /* DTParallaxTableViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTParallaxTableViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA8DAE141AEF4929003A93AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA8DAE151AEF4929003A93AB /* DTTableViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTTableViewExampleTests.m; sourceTree = "<group>"; };
 		FA8DAE1F1AEF4940003A93AB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,10 +45,10 @@
 		FA8DAE211AEF4940003A93AB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		FA8DAE221AEF4940003A93AB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FA8DAE231AEF4940003A93AB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		FA8DAE281AEF4954003A93AB /* DTTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTableView.h; sourceTree = "<group>"; };
-		FA8DAE291AEF4954003A93AB /* DTTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTTableView.m; sourceTree = "<group>"; };
-		FA8DAE2A1AEF4954003A93AB /* DTHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTHeaderView.h; sourceTree = "<group>"; };
-		FA8DAE2B1AEF4954003A93AB /* DTHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTHeaderView.m; sourceTree = "<group>"; };
+		FA8DAE281AEF4954003A93AB /* DTParallaxTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTParallaxTableView.h; sourceTree = "<group>"; };
+		FA8DAE291AEF4954003A93AB /* DTParallaxTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTParallaxTableView.m; sourceTree = "<group>"; };
+		FA8DAE2A1AEF4954003A93AB /* DTParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTParallaxHeaderView.h; sourceTree = "<group>"; };
+		FA8DAE2B1AEF4954003A93AB /* DTParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DTParallaxHeaderView.m; sourceTree = "<group>"; };
 		FA8DAE2C1AEF4954003A93AB /* DTTableViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DTTableViewConstants.h; sourceTree = "<group>"; };
 		FA8DAE301AEF495F003A93AB /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
 		FA8DAE321AEF4A2E003A93AB /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDWebImage.framework; sourceTree = "<group>"; };
@@ -89,8 +89,8 @@
 		FA8DADF71AEF4929003A93AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA8DADF61AEF4929003A93AB /* DTTableViewExample.app */,
-				FA8DAE0F1AEF4929003A93AB /* DTTableViewExampleTests.xctest */,
+				FA8DADF61AEF4929003A93AB /* DTParallaxTableViewExample.app */,
+				FA8DAE0F1AEF4929003A93AB /* DTParallaxTableViewExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,10 +141,10 @@
 		FA8DAE271AEF494A003A93AB /* DTTableView */ = {
 			isa = PBXGroup;
 			children = (
-				FA8DAE281AEF4954003A93AB /* DTTableView.h */,
-				FA8DAE291AEF4954003A93AB /* DTTableView.m */,
-				FA8DAE2A1AEF4954003A93AB /* DTHeaderView.h */,
-				FA8DAE2B1AEF4954003A93AB /* DTHeaderView.m */,
+				FA8DAE281AEF4954003A93AB /* DTParallaxTableView.h */,
+				FA8DAE291AEF4954003A93AB /* DTParallaxTableView.m */,
+				FA8DAE2A1AEF4954003A93AB /* DTParallaxHeaderView.h */,
+				FA8DAE2B1AEF4954003A93AB /* DTParallaxHeaderView.m */,
 				FA8DAE2C1AEF4954003A93AB /* DTTableViewConstants.h */,
 			);
 			name = DTTableView;
@@ -161,9 +161,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA8DADF51AEF4929003A93AB /* DTTableViewExample */ = {
+		FA8DADF51AEF4929003A93AB /* DTParallaxTableViewExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA8DAE191AEF4929003A93AB /* Build configuration list for PBXNativeTarget "DTTableViewExample" */;
+			buildConfigurationList = FA8DAE191AEF4929003A93AB /* Build configuration list for PBXNativeTarget "DTParallaxTableViewExample" */;
 			buildPhases = (
 				FA8DADF21AEF4929003A93AB /* Sources */,
 				FA8DADF31AEF4929003A93AB /* Frameworks */,
@@ -173,14 +173,14 @@
 			);
 			dependencies = (
 			);
-			name = DTTableViewExample;
+			name = DTParallaxTableViewExample;
 			productName = DTTableViewExample;
-			productReference = FA8DADF61AEF4929003A93AB /* DTTableViewExample.app */;
+			productReference = FA8DADF61AEF4929003A93AB /* DTParallaxTableViewExample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA8DAE0E1AEF4929003A93AB /* DTTableViewExampleTests */ = {
+		FA8DAE0E1AEF4929003A93AB /* DTParallaxTableViewExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA8DAE1C1AEF4929003A93AB /* Build configuration list for PBXNativeTarget "DTTableViewExampleTests" */;
+			buildConfigurationList = FA8DAE1C1AEF4929003A93AB /* Build configuration list for PBXNativeTarget "DTParallaxTableViewExampleTests" */;
 			buildPhases = (
 				FA8DAE0B1AEF4929003A93AB /* Sources */,
 				FA8DAE0C1AEF4929003A93AB /* Frameworks */,
@@ -191,9 +191,9 @@
 			dependencies = (
 				FA8DAE111AEF4929003A93AB /* PBXTargetDependency */,
 			);
-			name = DTTableViewExampleTests;
+			name = DTParallaxTableViewExampleTests;
 			productName = DTTableViewExampleTests;
-			productReference = FA8DAE0F1AEF4929003A93AB /* DTTableViewExampleTests.xctest */;
+			productReference = FA8DAE0F1AEF4929003A93AB /* DTParallaxTableViewExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -214,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA8DADF11AEF4929003A93AB /* Build configuration list for PBXProject "DTTableViewExample" */;
+			buildConfigurationList = FA8DADF11AEF4929003A93AB /* Build configuration list for PBXProject "DTPrallaxTableViewExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -227,8 +227,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA8DADF51AEF4929003A93AB /* DTTableViewExample */,
-				FA8DAE0E1AEF4929003A93AB /* DTTableViewExampleTests */,
+				FA8DADF51AEF4929003A93AB /* DTParallaxTableViewExample */,
+				FA8DAE0E1AEF4929003A93AB /* DTParallaxTableViewExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -262,8 +262,8 @@
 				FA8DAE251AEF4940003A93AB /* ViewController.m in Sources */,
 				FA8DAE241AEF4940003A93AB /* AppDelegate.m in Sources */,
 				FA8DADFC1AEF4929003A93AB /* main.m in Sources */,
-				FA8DAE2E1AEF4954003A93AB /* DTHeaderView.m in Sources */,
-				FA8DAE2D1AEF4954003A93AB /* DTTableView.m in Sources */,
+				FA8DAE2E1AEF4954003A93AB /* DTParallaxHeaderView.m in Sources */,
+				FA8DAE2D1AEF4954003A93AB /* DTParallaxTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +280,7 @@
 /* Begin PBXTargetDependency section */
 		FA8DAE111AEF4929003A93AB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FA8DADF51AEF4929003A93AB /* DTTableViewExample */;
+			target = FA8DADF51AEF4929003A93AB /* DTParallaxTableViewExample */;
 			targetProxy = FA8DAE101AEF4929003A93AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -381,11 +381,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = DTTableViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -396,11 +398,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = DTTableViewExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +448,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA8DADF11AEF4929003A93AB /* Build configuration list for PBXProject "DTTableViewExample" */ = {
+		FA8DADF11AEF4929003A93AB /* Build configuration list for PBXProject "DTPrallaxTableViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA8DAE171AEF4929003A93AB /* Debug */,
@@ -453,21 +457,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA8DAE191AEF4929003A93AB /* Build configuration list for PBXNativeTarget "DTTableViewExample" */ = {
+		FA8DAE191AEF4929003A93AB /* Build configuration list for PBXNativeTarget "DTParallaxTableViewExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA8DAE1A1AEF4929003A93AB /* Debug */,
 				FA8DAE1B1AEF4929003A93AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		FA8DAE1C1AEF4929003A93AB /* Build configuration list for PBXNativeTarget "DTTableViewExampleTests" */ = {
+		FA8DAE1C1AEF4929003A93AB /* Build configuration list for PBXNativeTarget "DTParallaxTableViewExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA8DAE1D1AEF4929003A93AB /* Debug */,
 				FA8DAE1E1AEF4929003A93AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -5,9 +5,9 @@
 //  Copyright (c) 2015 ToanDK. All rights reserved.
 //
 
-#import "DTHeaderView.h"
+#import "DTParallaxHeaderView.h"
 
-@implementation DTHeaderView
+@implementation DTParallaxHeaderView
 
 -(id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {

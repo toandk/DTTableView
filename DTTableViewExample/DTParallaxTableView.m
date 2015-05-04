@@ -5,10 +5,10 @@
 //  Copyright (c) 2015 ToanDK. All rights reserved.
 //
 
-#import "DTTableView.h"
+#import "DTParallaxTableView.h"
 #import <SDWebImage/UIImageView+WebCache.h>
 
-@implementation DTTableView
+@implementation DTParallaxTableView
 
 #define NAVIGATION_BAR_HEIGHT 64
 #define SHADOW_TAG 101
@@ -39,7 +39,7 @@
                        context:(void *)context {
     if ([keyPath isEqualToString:@"contentOffset"] && object == self) {
         float offsetY = self.contentOffset.y;
-        DTHeaderView *headerView = (DTHeaderView*)self.tableHeaderView;
+        DTParallaxHeaderView *headerView = (DTParallaxHeaderView*)self.tableHeaderView;
         
         float limit = self.tableHeaderView.frame.size.height - NAVIGATION_BAR_HEIGHT;
         if (offsetY >= limit) {
@@ -85,7 +85,7 @@
     }
 }
 
--(void)setupTopBarViewWithHeader:(DTHeaderView*)headerView {
+-(void)setupTopBarViewWithHeader:(DTParallaxHeaderView*)headerView {
     topBarView = [[UIView alloc] initWithFrame:CGRectMake(0, -headerView.frame.size.height + NAVIGATION_BAR_HEIGHT, self.frame.size.width, headerView.frame.size.height)];
     
     UIImageView *headerImgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, -kDTImageViewOffsetY, self.frame.size.width, topBarView.frame.size.height + kDTImageViewOffsetY*2)];
@@ -114,7 +114,7 @@
     [self.superview insertSubview:topBarView aboveSubview:self];
 }
 
--(void)setupBackgroundViewWithHeader:(DTHeaderView*)headerView {
+-(void)setupBackgroundViewWithHeader:(DTParallaxHeaderView*)headerView {
     bgView = [[UIView alloc] initWithFrame:CGRectMake(0, -kDTImageViewOffsetY, self.frame.size.width, topBarView.frame.size.height + kDTImageViewOffsetY*2)];
     UIImageView *bgImgView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.frame.size.width, topBarView.frame.size.height + kDTImageViewOffsetY*2)];
     bgImgView.image = headerView.bgImage;
@@ -139,7 +139,7 @@
     [self.superview insertSubview:bgView belowSubview:self];
 }
 
--(void)setDTHeaderView:(DTHeaderView *)headerView {
+-(void)setDTHeaderView:(DTParallaxHeaderView *)headerView {
     [self setTableHeaderView:headerView];
     
     [self setupTopBarViewWithHeader:headerView];

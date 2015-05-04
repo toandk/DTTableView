@@ -7,7 +7,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DTHeaderView : UIView {
+@interface DTParallaxHeaderView : UIView {
 
 }
 

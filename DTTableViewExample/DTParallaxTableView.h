@@ -7,14 +7,14 @@
 
 #import <UIKit/UIKit.h>
 #import "DTTableViewConstants.h"
-#import "DTHeaderView.h"
+#import "DTParallaxHeaderView.h"
 
-@interface DTTableView : UITableView {
+@interface DTParallaxTableView : UITableView {
 //    UIImageView *headerImgView, *bgImgView;
     UIView *topBarView, *bgView;
 }
 @property (nonatomic, assign) BOOL showShadow;
 
--(void)setDTHeaderView:(DTHeaderView *)tableHeaderView;
+-(void)setDTHeaderView:(DTParallaxHeaderView *)tableHeaderView;
 
 @end

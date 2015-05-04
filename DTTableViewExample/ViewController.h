@@ -6,10 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DTTableView.h"
+#import "DTParallaxTableView.h"
 
 @interface ViewController : UIViewController<UITableViewDelegate, UITableViewDataSource> {
-    __weak IBOutlet DTTableView *_tableView;
+    __weak IBOutlet DTParallaxTableView *_tableView;
     __weak IBOutlet UIView *tabbar;
 }
 

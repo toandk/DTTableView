@@ -15,23 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "FA8DADF51AEF4929003A93AB"
-               BuildableName = "DTTableViewExample.app"
-               BlueprintName = "DTTableViewExample"
-               ReferencedContainer = "container:DTTableViewExample.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA8DAE0E1AEF4929003A93AB"
-               BuildableName = "DTTableViewExampleTests.xctest"
-               BlueprintName = "DTTableViewExampleTests"
-               ReferencedContainer = "container:DTTableViewExample.xcodeproj">
+               BuildableName = "DTParallaxTableViewExample.app"
+               BlueprintName = "DTParallaxTableViewExample"
+               ReferencedContainer = "container:DTPrallaxTableViewExample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -42,24 +28,14 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "FA8DAE0E1AEF4929003A93AB"
-               BuildableName = "DTTableViewExampleTests.xctest"
-               BlueprintName = "DTTableViewExampleTests"
-               ReferencedContainer = "container:DTTableViewExample.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA8DADF51AEF4929003A93AB"
-            BuildableName = "DTTableViewExample.app"
-            BlueprintName = "DTTableViewExample"
-            ReferencedContainer = "container:DTTableViewExample.xcodeproj">
+            BuildableName = "DTParallaxTableViewExample.app"
+            BlueprintName = "DTParallaxTableViewExample"
+            ReferencedContainer = "container:DTPrallaxTableViewExample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA8DADF51AEF4929003A93AB"
-            BuildableName = "DTTableViewExample.app"
-            BlueprintName = "DTTableViewExample"
-            ReferencedContainer = "container:DTTableViewExample.xcodeproj">
+            BuildableName = "DTParallaxTableViewExample.app"
+            BlueprintName = "DTParallaxTableViewExample"
+            ReferencedContainer = "container:DTPrallaxTableViewExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "FA8DADF51AEF4929003A93AB"
-            BuildableName = "DTTableViewExample.app"
-            BlueprintName = "DTTableViewExample"
-            ReferencedContainer = "container:DTTableViewExample.xcodeproj">
+            BuildableName = "DTParallaxTableViewExample.app"
+            BlueprintName = "DTParallaxTableViewExample"
+            ReferencedContainer = "container:DTPrallaxTableViewExample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
